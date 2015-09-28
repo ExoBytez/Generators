@@ -1,0 +1,5 @@
+name: Generators
+description: A generator plugin similar to the Cube Craft generators in EggWars.
+author: Thrusmyster
+main: me.thrusmyster.generators.Generators
+version: 1.0.0

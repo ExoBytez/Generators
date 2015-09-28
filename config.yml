@@ -1,0 +1,26 @@
+#Don't touch this
+config-version: 1
+messages:
+    prefix: '&8[&9Generators&8]'
+    types:
+        iron: '&7Iron'
+        gold: '&6Gold'
+        diamond: '&bDiamond'
+    #Whenever a player upgrades a generator. Available variables: 
+    #%gen_id% (ID of the generator), %gen_name% (Name of the generator), %player% (Player who upgraded the generator), 
+    #%lvl_from% (Previous level of the generator), %lvl_to% (New level of the generator)
+    upgrade: 
+signs:
+    #This is what will display on the sign for a generator. Available variables: %type% (Type of generator E.g. Iron), %lvl% (Level of the generator)
+    - '%type%' 
+    - '&3Generator'
+    - '%lvl%'
+    - '&8Right Click'
+#Customise all sounds the plugin makes here.
+sounds:
+    upgrade: 
+        sound: 'random.levelup'
+        pitch: 0.8
+    production:
+        sound: 'random.click'
+        pitch: 1.6
